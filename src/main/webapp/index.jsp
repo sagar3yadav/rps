@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>RPS</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -12,10 +12,10 @@
    <body>
 	   <div class="container">
   <div class="jumbotron">
-Which one will it be for you today?<br/>
-      <a href="#" onclick="playRoshambo('rock')"> rock </a>
-      <a href="#" onclick="playRoshambo('paper')"> paper </a>
-      <a href="#" onclick="playRoshambo('scissors')"> scissors </a>
+<h1>Which one will it be for you today ?</h1><br/>
+      <a href="#" onclick="playRoshambo('rock')"> rock </a><br/>
+      <a href="#" onclick="playRoshambo('paper')"> paper </a><br/>
+      <a href="#" onclick="playRoshambo('scissors')"> scissors </a><br/>
 
       <br/>
       <div id="results"></div>

@@ -1,11 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Rock Paper Scissors!!!</title>																																																						<html>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
    <body>
-
-      Which one will it be for you today?<br/>
+	   <div class="container">
+  <div class="jumbotron">
+Which one will it be for you today?<br/>
       <a href="#" onclick="playRoshambo('rock')"> rock </a>
       <a href="#" onclick="playRoshambo('paper')"> paper </a>
       <a href="#" onclick="playRoshambo('scissors')"> scissors </a>
@@ -16,6 +23,12 @@
 	  <div id="losses"></div>
 	  <div id="ties"></div>
 	  <div id="history"></div>
+  </div>
+    </div>
+  </div>
+</div>
+
+      
 	  
    </body>
 </html>
